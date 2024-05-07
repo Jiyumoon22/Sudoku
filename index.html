@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0 user-scalable=no">
+        <title>Sudoku</title>
+
+        <link rel="stylesheet" href="sudoku.css">
+        <script src="sudoku.js"></script>
+    </head>
+
+    <body>
+        <h1>SUDOKU</h1>
+        <hr>
+        <hr>
+        <h3>REGLAS:</h3>
+        <h4>- Para completar el tablero debes seleccionar el número que aparece en la parte inferior y después el lugar donde lo deseas posicionar</h4>
+        <h4>- No debe repetirse el número en filas o columnas</h4>
+        <h4>- La suma de cada filas y cada columnas debe de ser 45</h4>
+        <h2 id="errors"> Errores</h2>
+
+        <div id="board"></div>
+        <br>
+        <div id="digits">
+        </div>
+        <br>
+        <button onclick="restartGame()">Reiniciar Juego</button>
+        <button onclick="comprobar()">Comprobar Tablero</button>
+        <hr>
+        <hr>
+        <h4>Hernández Morales Dulce Paola</h4>
+
+    </body>
+
+
+</html>
